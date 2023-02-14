@@ -7,7 +7,7 @@ import Apt3 from "../../assets/apt3.jpeg"
 
 const Best = () => {
    return (
-    <div className='best'>
+    <div className='best' id ="best">
         <h1>Find the best Rated Properties.</h1>
         <div>
             <p><span className='bold'>All</span></p>

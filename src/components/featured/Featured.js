@@ -15,7 +15,7 @@ import LivingRoom from "../../assets/living-room.jpg"
 
 const Featured = () => {
   return (
-    <div className='featured'>
+    <div className='featured' id='featured'>
         <h1 className='featured-text'>Top Featured Listings</h1>
         <p className='views-text'>Selected Listings by City, State & Zip based on views.</p>
         <div className="container">

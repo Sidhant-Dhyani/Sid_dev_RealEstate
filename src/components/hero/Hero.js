@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id ="hero">
       <div className="content">
             <h1>Find the perfect place</h1>
             <p className="search-text">

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { FaRegTimesCircle } from "react-icons/fa";
 import { BsFillHouseFill } from "react-icons/bs";
+// import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 
@@ -22,17 +23,17 @@ const Navbar = () => {
         </h1>
         <button className="btn">Sign In</button>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li>
-            <a href="#" >Home</a>
+          <li >
+            <a href="#hero">Hero</a>
           </li>
-          <li>
-            <a href="#" >Search</a>
+          <li >
+            <a href="#best">Best</a>
           </li>
-          <li>
-            <a href="#" >About</a>
+          <li >
+            <a href="#featured">Featured</a>
           </li>
-          <li>
-            <a href="#" >Contact</a>
+          <li >
+            <a href="#footer">Contact US</a>
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

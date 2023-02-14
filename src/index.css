@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 
 *{
+  scroll-behavior: smooth !important;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
