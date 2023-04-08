@@ -1,3 +1,4 @@
+
 import React from 'react'
 import "./Best.css"
 import Apt1 from "../../assets/apt1.jpeg"
@@ -26,3 +27,4 @@ const Best = () => {
 }  
 
 export default Best
+
